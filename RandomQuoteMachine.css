@@ -1,0 +1,45 @@
+body {
+  display: table;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  --color: blue;
+  background: var(--color);
+}
+
+.middle {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.output {
+  background-color: white;
+  border: solid 5px black;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto; 
+  width: 50%;
+}
+
+.quote {
+  font-size: 50px;
+  font-family: 'Pacifico', cursive;
+  color: var(--color); 
+  text-shadow: 1px 1px 2px black, 0 0 2em black, 0 0 0.2em black;
+}
+
+.author {
+  font-size: 30px;
+  color: var(--color);
+  text-shadow: 1px 1px 2px black, 0 0 2em black, 0 0 0.2em black;
+}
+
+.tweet {
+  margin-top: 10px;
+  float: left;
+}
+
+.next_quote {
+  margin-top: 10px;
+  float: right;
+}
