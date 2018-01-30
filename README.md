@@ -1,3 +1,3 @@
 # Random Quote Machine
 
-# My solution to the random quote generator challenge on freeCodeCamp. This solution uses jQuery, Bootstrap, and the QuotesOnDesign.com API to generate the random quotes.
+# A page that displays a random, tweetable quote every time the user clicks the "Next Quote" button. This page uses jQuery, Bootstrap, and the QuotesOnDesign.com API to generate the random quotes.
